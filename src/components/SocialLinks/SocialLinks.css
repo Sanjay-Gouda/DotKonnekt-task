@@ -1,0 +1,54 @@
+
+  
+  .fab {
+    background-color: transparent;
+    height: 64px;
+    width: 64px;
+    border-radius: 32px;
+    transition: height 300ms;
+    transition-timing-function: ease;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .fab:hover {
+    height: 344px;
+  }
+
+  
+  .mainop {
+    /* margin: auto; */
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: transform 300ms;
+    background-color: #f44336;
+    border-radius: 32px;
+    z-index: 6;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .material-icons{
+    font-size:25px;
+    color: white;
+    cursor: pointer;
+  }  
+
+ 
+  
+  .mainop p {
+ 
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  
+  
