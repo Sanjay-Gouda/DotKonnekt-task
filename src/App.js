@@ -4,7 +4,7 @@ import { RemoveLinks } from "./components/RemoveSocialLinks.js/RemoveSocialLink"
 import { SocialLink } from "./components/SocialLinks/SocialLinks";
 
 
-import { SocialLinkProvider } from "./LinkContext";
+import { SocialLinkProvider } from "./Context/LinkContext";
 
 function App() {
   return (

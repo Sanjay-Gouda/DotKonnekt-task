@@ -1,5 +1,5 @@
 import { createContext, useContext, useState } from "react";
-import { SocialMediaLinks } from "./socialMediaLinks";
+
 
 export const LinkContext = createContext({
   linkOperation:[],

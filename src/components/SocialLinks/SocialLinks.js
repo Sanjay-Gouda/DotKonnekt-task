@@ -1,7 +1,7 @@
 import { useState,useContext } from "react";
 import "./SocialLinks.css";
 import { SocialMediaLinks } from "../../socialMediaLinks";
-import { LinkContext } from "../../LinkContext";
+import { LinkContext } from "../../Context/LinkContext";
 
 export const SocialLink = () => {
 

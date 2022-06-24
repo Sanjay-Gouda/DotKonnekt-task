@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { LinkContext } from "../../LinkContext";
+import { LinkContext } from "../../Context/LinkContext";
 import '../AddSocialLink/AddSocialLink.css'
 
 export const RemoveLinks = () => {
